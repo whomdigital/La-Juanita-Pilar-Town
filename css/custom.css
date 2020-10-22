@@ -1,0 +1,60 @@
+/*********************************************************************************
+
+	Template Name: Template Full Name Here
+	Description: A perfect template to build beautiful and unique medical websites. It comes with nice and clean design.
+	Version: 1.0
+
+	Note: This is custom css.
+
+**********************************************************************************/
+
+@font-face{
+	font-family: "raleway";
+	src: url(/La-juanita/fonts/Raleway-Black.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+#section1{
+	padding-top: 160px;
+}
+
+::placeholder { /* Firefox, Chrome, Opera */ 
+	color: white; 
+} 
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+	color: white; 
+} 
+
+::-ms-input-placeholder { /* Microsoft Edge */ 
+	color: white; 
+} 
+
+
+.portfolio-grid-metro3 {
+	
+}
+
+#poweredresponsive{
+	display: none;
+}
+ 
+@media only screen 
+	 and (max-width : 700px)
+	 { 
+		#footer2{
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+	 }
+	 #powered{
+		visibility: hidden;
+	 }
+	 #oppel{
+		 padding-left: 40px;
+	 }
+	 #poweredresponsive{
+		 display: block;
+		 padding-top: 40px;
+	 }
+}
